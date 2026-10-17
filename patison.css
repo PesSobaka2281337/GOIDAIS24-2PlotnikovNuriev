@@ -1,0 +1,23 @@
+body {
+      background-color: black;
+    }
+    .row {
+      display: flex;        
+      gap: 10px;  
+      justify-content: center;   
+      align-items: center;                 
+    }
+    .row img {
+      width: 400px;
+      height: 200px;
+      object-fit: cover;    
+      border-radius: 8px;
+    }
+    .description {
+  max-width: 800px;   
+  margin: 0 auto;     
+  text-align: center; 
+  padding: 10px;
+  color: palevioletred;
+}
+
